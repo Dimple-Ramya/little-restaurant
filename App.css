@@ -1,0 +1,64 @@
+.header-container {
+    height: 9vh;
+    width: 99vw;
+    background-color: orange;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.logo {
+    margin-left: 5%;
+    margin-top: 2px;
+    height: 58px;
+    width: 90px;
+}
+
+.nav-container {
+    width: 30%;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    cursor: pointer;
+}
+
+.body-container {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px;
+    height: 100vh;
+}
+
+.res-img {
+    height: 50px;
+    width: 90px;
+}
+
+.shimmer-card {
+    height: 200px;
+    width: 140px;
+    background-color: rgb(250, 248, 248);
+    box-shadow: 5px 5px 5px gainsboro;
+    margin: 10px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.res-card {
+    height: 200px;
+    width: 140px;
+    box-shadow: 5px 5px 5px gainsboro;
+    margin: 10px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.res-name {
+    font-size: 16px;
+    margin: 0;
+}
+
+.rating {
+    font-size: 14px;
+}
